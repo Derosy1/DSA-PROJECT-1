@@ -9,7 +9,15 @@ The project culminated in the creation of an interactive Excel dashboard, provid
 # Data Source
 The dataset was sourced through web scraping of Amazon product pages, collecting publicly available information including product details (name, category, price, discount, and ratings) and customer engagement data (review counts, titles, and content). Each record represents a unique product with aggregated reviewer data stored in structured format.
 # Tool Used
-Ms Excel for data cleaning and pivot table for the data analysis
+Ms Excel for data cleaning and pivot table for the data analysis [Download here](https://www.microsoft.com/en-us/microsoft-365/excel?msockid=3051be019ec16d900feaab689f5f6c24)
+  * For data colection
+  * For data cleaning
+  * For data wrangling
+  * For data manipulation
+  * For data analysis
+  * For datat sumerization
+  * For data calculation
+  * For data visualization
 # Data Cleaning
 * I check for duplicate rows to ensure each product entry was unique
 * I reviewed all 16 columns for missing data
@@ -17,3 +25,7 @@ Ms Excel for data cleaning and pivot table for the data analysis
 * I splitted product name by reducing the text and deleted other text to make it look more consized
 * I deleted the uneccessary columns like about product, user ID, user name, review title, product link, img link,review content
 * I applied ctl A to format adn fit text to width
+# Data Analysis
+## Using Pivot Table
+Pivot tables were essential for efficiently summarizing and analyzing the Amazon product dataset. They allowed for dynamic grouping, aggregation, and comparison of key metrics across product categories, price ranges, and review counts. Specifically, pivot tables were used to
+
