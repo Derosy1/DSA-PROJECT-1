@@ -11,4 +11,9 @@ The dataset was sourced through web scraping of Amazon product pages, collecting
 # Tool Used
 Ms Excel for data cleaning and pivot table for the data analysis
 # Data Cleaning
-
+* I check for duplicate rows to ensure each product entry was unique
+* I reviewed all 16 columns for missing data
+* I changed data type by converting text-formatted numbers (e.g., price, discount, rating count) to proper numeric data
+* I splitted product name by reducing the text and deleted other text to make it look more consized
+* I deleted the uneccessary columns like about product, user ID, user name, review title, product link, img link,review content
+* I applied ctl A to format adn fit text to width
