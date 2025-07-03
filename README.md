@@ -59,11 +59,27 @@ Pivot tables were essential for efficiently summarizing and analyzing the Amazon
    (Using pivot table: Insert, click pivot table, select from table/range, new sheet, ok. Drag product name to row and discount percentage to value on pivot table dialoque box, = countIF (select range, ">=50%) Edit column names)
 
 
-13. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)?
-14. What is the total potential revenue (actual_price × rating_count) by category?
-15. What is the number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)?
-16. 11. How does the rating relate to the level of discount?
-17. How many products have fewer than 1,000 reviews?
-18. Which categories have products with the highest discounts?
-19. Identify the top 5 products in terms of rating and number of reviews combined.
+8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)?
+
+ (Using pivot table: Insert, click pivot table, select from table/range, new sheet, ok. Drag rating to row and count of rating to value on pivot table dialoque box, = countIF(highlight rate, ">=3.0"), click rating, filter with values greater than or equal to input 3, ok)
+
+ 
+9. What is the total potential revenue (actual_price × rating_count) by category?
+
+   Create helper column = Potential Revenue (Actual price x rating count), set to number, removel decimal, category to row adn potential revenue to value.
+   
+10. What is the number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)?
+
+    Create a column for price bucket
+    = IF (D2 > 200, "<200", IF (D2<=500, "200-500", ">500"))
+    Drage bucket to row and product name to value
+
+    
+11. How does the rating relate to the level of discount?
+
+    Highlight both columns discount percentaeg and rating, insert scater plot, to view relationship, format where necessary
+    
+13. How many products have fewer than 1,000 reviews?
+14. Which categories have products with the highest discounts?
+15. Identify the top 5 products in terms of rating and number of reviews combined.
 # Analysis
