@@ -89,4 +89,8 @@ Pivot tables were essential for efficiently summarizing and analyzing the Amazon
 14. Identify the top 5 products in terms of rating and number of reviews combined.
 
 (Using pivot table: Insert, click pivot table, select from table/range, new sheet, ok. Drag product name to row, count of review ID and sum of rating to value on pivot table dialoque box. Edit column names)
+
 # Analysis
+
+![Scatter plot](https://github.com/user-attachments/assets/1e94c336-7ade-4c6e-b3ee-9d2cafbf0a5d)
+
