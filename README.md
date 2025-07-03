@@ -1,5 +1,5 @@
 # DSA-PROJECT-1
-## My excel project with DSA Incubator in Data Analysis
+# My excel project with DSA Incubator in Data Analysis
 # Project Overview:Amazon Product Review Analysis
 As a Junior Data Analyst at RetailTech Insights, I conducted a comprehensive analysis of Amazon product and customer review data to extract actionable insights that support product improvement, marketing strategies, and customer engagement. The dataset comprised 1,465 Amazon products, including details such as product category, price, discount, ratings, and aggregated customer reviews.
 
