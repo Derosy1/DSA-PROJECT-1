@@ -79,7 +79,14 @@ Pivot tables were essential for efficiently summarizing and analyzing the Amazon
 
     Highlight both columns discount percentaeg and rating, insert scater plot, to view relationship, format where necessary
     
-13. How many products have fewer than 1,000 reviews?
-14. Which categories have products with the highest discounts?
-15. Identify the top 5 products in terms of rating and number of reviews combined.
+12. How many products have fewer than 1,000 reviews?
+
+   
+13. Which categories have products with the highest discounts?
+
+  (Using pivot table: Insert, click pivot table, select from table/range, new sheet, ok. Drag category to row and count of product name to value on pivot table dialoque box, sort highest count of product name by category. Edit column names)
+    
+14. Identify the top 5 products in terms of rating and number of reviews combined.
+
+(Using pivot table: Insert, click pivot table, select from table/range, new sheet, ok. Drag product name to row, count of review ID and sum of rating to value on pivot table dialoque box. Edit column names)
 # Analysis
