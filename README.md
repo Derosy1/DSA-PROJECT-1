@@ -92,5 +92,6 @@ Pivot tables were essential for efficiently summarizing and analyzing the Amazon
 
 # Analysis
 
-![Scatter plot](https://github.com/user-attachments/assets/1e94c336-7ade-4c6e-b3ee-9d2cafbf0a5d)
+
+![Scater plot](https://github.com/user-attachments/assets/a8f62519-fd2d-400e-a40c-1464ced3c738)
 
